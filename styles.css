@@ -1,1 +1,22 @@
-/* your code */
+table {
+    border-spacing: 0;
+    width: 80%;
+    margin: 0px auto;
+    border: 0.1px solid#3A5bA0;
+    /* border-radius: 10%; */
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    color: white;
+    background-color: #3A5bA0;
+    /* border: 5px solid #3A5bA0 */
+}
+
+tr:nth-child(even) {
+    background-color: #E0DECA;
+}
